@@ -1,0 +1,26 @@
+---tabel
+#SELECT *
+#FROM superstore
+#;
+
+---average_rating under 4,60 big to smal
+
+#SELECT *
+#FROM superstore
+#WHERE average_rating <4.6
+#ORDER BY average_rating DESC
+#;
+
+---sort electronics by price
+#SELECT *
+#FROM superstore
+#WHERE category="Electronics"
+#ORDER BY price DESC
+#;
+
+---BITT Promt
+SELECT *
+FROM superstore
+WHERE category="Kitchen Supplies"
+ORDER BY item_name
+;
